@@ -1,0 +1,50 @@
+.heading {
+  /* Stlyes... */
+}
+
+.heading__input {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  padding-left: 14px;
+  border-radius: 5px;
+  color: black;
+}
+
+.heading__input input {
+  width: 100%;
+  min-width: 50%;
+  border: none;
+  border-radius: 5px;
+  padding: 14px;
+  padding-left: 14px;
+  overflow: hidden;
+}
+
+.heading__input input:active,
+input:focus {
+  outline: none;
+}
+
+.heading__input-tag {
+  display: flex;
+  align-items: center;
+  margin: 7px 0;
+  margin-right: 10px;
+  padding: 0 10px;
+  padding-right: 5px;
+  border: 1px solid orange;
+  border-radius: 5px;
+  background-color: orange;
+  white-space: nowrap;
+  color: white;
+}
+
+.heading__input-tag button {
+  display: flex;
+  padding: 6px;
+  border: none;
+  background-color: unset;
+  cursor: pointer;
+  color: white;
+}
