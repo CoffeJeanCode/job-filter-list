@@ -1,0 +1,19 @@
+.job-colletion {
+  max-width: 80vw;
+  margin: 2rem auto;
+}
+
+.job-colletion__list {
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  list-style-type: none;
+  flex-wrap: wrap;
+  row-gap: 2.5rem;
+}
+
+@media (max-width: 375px) {
+  .job-colletion {
+    max-width: 85vw;
+  }
+}
